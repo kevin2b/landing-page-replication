@@ -83,5 +83,41 @@ button{
   height: 200px;
 }
 
+.main-info{
+  padding: 50px 150px;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.information-container {
+  display: flex;
+  gap: 8px;
+}
+
+.container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.container-image {
+  align-self: center;
+  width: 150px;
+  height: auto;
+  border: 5px solid #3882F6;
+  border-radius: 4px;
+}
+
+.information-text{
+  color: gray;
+  font-size: 12px;
+  text-align: center;
+}
 .footer {
 }
