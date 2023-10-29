@@ -12,14 +12,21 @@ body {
 }
 
 .header,
-.footer,
 .hero {
   background-color:#1F2937;
   padding: 0 100px;
 }
 
-.header-text{
+.header-text, 
+.hero-text,
+.sign-up,
+.footer-subcall,
+.footer-call
+{
   color: #F9FAF8;
+}
+
+.header-text{
   font-size: 24px;
   font-weight: 800;
   margin-right: auto;
@@ -55,14 +62,14 @@ a {
 .hero-text {
   font-size: 48px;
   font-weight: 800;
-  color: #F9FAF8;
 }
 
 .left-hero {
   margin-right: auto;
 }
 
-button{
+button,
+.footer-container {
   background-color: #3882F6;
   border-radius: 8px;
 }
@@ -75,7 +82,6 @@ button{
 
 .sign-up {
   font-size: 18px;
-  color: #F9FAF8;
 }
 
 .hero-image {
@@ -132,7 +138,7 @@ button{
 .quote-body {
   font-weight: 300;
   font-size: 36px;
-  font-color: #1F2937;
+  color: #1F2937;
   align-self: center;
 }
 
@@ -141,6 +147,30 @@ button{
   text-align: right;
 }
 
-
 .footer {
+  padding: 50px 100px;
+}
+
+.footer-container {
+  padding: 25px 50px;
+  display: flex;
+}
+
+.footer-call{
+  font-size: 18px;
+  font-weight: 800;
+}
+
+.footer-subcall{
+  font-size: 12px;
+  font-weight: 300;
+}
+
+.left-footer{
+  margin-right: auto;	
+}
+
+.right-footer{
+  padding: 4px 24px;
+  border: 2px solid white;
 }
