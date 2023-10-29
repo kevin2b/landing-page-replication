@@ -9,12 +9,13 @@ body {
 .header {
   display: flex;
   align-items: center;
-  padding: 0 100px;
 }
 
 .header,
-.footer {
+.footer,
+.hero {
   background-color:#1F2937;
+  padding: 0 100px;
 }
 
 .header-text{
@@ -30,7 +31,8 @@ body {
   gap: 48px;
 }
 
-.header-link{
+.header-link,
+.hero-subtext {
   color: #E5E7EB;
   font-size: 18px;
 }
@@ -41,6 +43,44 @@ a {
 
 .content {
   flex: 1;
+}
+
+.hero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  gap: 25px;
+}
+
+.hero-text {
+  font-size: 48px;
+  font-weight: 800;
+  color: #F9FAF8;
+}
+
+.left-hero {
+  margin-right: auto;
+}
+
+button{
+  background-color: #3882F6;
+  border-radius: 8px;
+}
+
+.hero-button{
+  border: 0;
+  padding: 4px 24px;
+  margin-top: 8px;
+}
+
+.sign-up {
+  font-size: 18px;
+  color: #F9FAF8;
+}
+
+.hero-image {
+  width: auto;
+  height: 200px;
 }
 
 .footer {
